@@ -10,5 +10,7 @@ public class Strings_Learning {
         System.out.println(s1.equals(s2)); //it checks the value inside strings
         System.out.println(s1.equals(s3)); //it checks the value so returns true
         System.out.println(s1==s3); //here by new keyword it will not point to same memory so return false
+
+
     }
 }
