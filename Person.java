@@ -3,6 +3,10 @@ package LearningJAVABasicsToAdvance;
 public class Person { //it can be public or not defined so that it will accessible to according to package
     int empID;
 
+    Person(){
+
+    }
+
     Person(int empID){
         this.empID=empID;
     }
