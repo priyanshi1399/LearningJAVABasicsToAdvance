@@ -42,7 +42,7 @@ public class Main {
         }
 
 */
-        /* Inheritence in Generic Class example*/
+        /* Inheritence in Generic Class example
         ColorPrint_GenericInheritence colorPrintObj=new ColorPrint_GenericInheritence();
         colorPrintObj.setPrintValue("2");
         String printValue=colorPrintObj.getPrintValue();
@@ -50,5 +50,16 @@ public class Main {
             System.out.println("checking Inheritence generic");
         }
         //creating object of colorprint and storing string value
+        */
+
+
+        /* Generic Sub Class*/
+
+        //here we will define the object type,here do it for string,create string type
+
+        GenericSubClass<String> genericSubObj=new GenericSubClass<>();
+        genericSubObj.setPrintValue("2");
+
+
     }
 }
