@@ -13,5 +13,18 @@ public class Main {
         //first it will go and initialize parent constructor
 
         //example 2-->we have to give all the argument to initialize
+
+        /*Generic class Issue*/
+
+        GenericClass_1 genClassObj=new GenericClass_1();
+        genClassObj.setPrintValue(1); //its integer
+        Object printValue= genClassObj.getPrintValue()  ; //object is parent of all
+        //we can not use printValue directly, we have to typecast it,else it will be compile time error
+        //this is the main issue in these type of classes here generic class comes into picture
+        //to avoid this typecasting //see in Generic Class
+        if((int)printValue==1){
+            //do something
+            System.out.println("checking generic........");
+        }
     }
 }
