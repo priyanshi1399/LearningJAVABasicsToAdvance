@@ -37,4 +37,4 @@ public class ObjectTest {
     }
 }
 //Somewhere you want to store the object and you dont know which one is Parent and you want to hold the object
-//you can always hold the object in Parent that is Object and you can use it know which class it belongs to and perform certain operations.
+//you can always hold the object in Parent that is Object and you can use it know which class it belongs to and perform certain operations. So these static innerclass,localInnerclass completed.
