@@ -28,7 +28,7 @@ public class Main {
         }
         */
 
-        //Generic class (how we tell at compile time)
+        /*Generic class (how we tell at compile time)
 
       //  Generic Type (in example <T>) can be replaced with any non-primitive type object
 
@@ -41,6 +41,14 @@ public class Main {
             System.out.println("Generic Class Example..");
         }
 
-
+*/
+        /* Inheritence in Generic Class example*/
+        ColorPrint_GenericInheritence colorPrintObj=new ColorPrint_GenericInheritence();
+        colorPrintObj.setPrintValue("2");
+        String printValue=colorPrintObj.getPrintValue();
+        if (printValue.equals("2")){
+            System.out.println("checking Inheritence generic");
+        }
+        //creating object of colorprint and storing string value
     }
 }
