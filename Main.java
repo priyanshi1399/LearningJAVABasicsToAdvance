@@ -53,13 +53,23 @@ public class Main {
         */
 
 
-        /* Generic Sub Class*/
+        /* Generic Sub Class
 
         //here we will define the object type,here do it for string,create string type
 
         GenericSubClass<String> genericSubObj=new GenericSubClass<>();
         genericSubObj.setPrintValue("2");
 
+*/
 
+/* More than one Generic Class*/
+
+        Generic_MoreThanOne<String,Integer> geneMoreObj=new Generic_MoreThanOne<>();
+       // Generic_MoreThanOne<String,Integer> geneMoreObj=new Generic_MoreThanOne<String,Integer>(); //both are correct
+        geneMoreObj.put("hello",1243);
+
+       /* Print_GenericClass<Integer> printObj=new Print_GenericClass<Integer>();
+        printObj.value=10;
+        (String)(printObj.value);*/
     }
 }
