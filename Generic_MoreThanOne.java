@@ -11,5 +11,14 @@ public class Generic_MoreThanOne <K,V>{ //taking key value
         this.key=key;
         this.value=value; //Simply Objective is to show that It can take more than 2 values
         //Now observe in main its object creation
+
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue(){
+        return value;
     }
 }

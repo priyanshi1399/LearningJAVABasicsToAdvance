@@ -63,7 +63,6 @@ public class Main {
 */
 
 /* More than one Generic Class*/
-
         Generic_MoreThanOne<String,Integer> geneMoreObj=new Generic_MoreThanOne<>();
        // Generic_MoreThanOne<String,Integer> geneMoreObj=new Generic_MoreThanOne<String,Integer>(); //both are correct
         geneMoreObj.put("hello",1243);
