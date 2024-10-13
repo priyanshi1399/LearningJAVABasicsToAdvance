@@ -26,8 +26,8 @@ public class Main {
 
 //Type Parameter should be before the return Type of the method declaration.
 //Type Parameter scope is limited to method only. Its not like the class
-
-        /* Bound Type Generics
+//
+        /*Bound Type Generics
         Print_BoundType<Integer> parameterizedTypePrintObject=new Print_BoundType<Integer>();//This is ok because Integer Class is under Number
       //  Print_BoundType<String> parameterizedTypePrintObject=new Print_BoundType<String>();//but this is wrong because, String is not a child of Number
 
