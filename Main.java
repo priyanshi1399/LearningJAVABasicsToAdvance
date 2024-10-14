@@ -70,5 +70,10 @@ public class Main {
        /* Print_GenericClass<Integer> printObj=new Print_GenericClass<Integer>();
         printObj.value=10;
         (String)(printObj.value);*/
+
+
+
+
+
     }
 }
